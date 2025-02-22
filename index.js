@@ -42,9 +42,9 @@ playerShadow.addLightSource(anotherLight)
 
 var vCam = new Camera();
 
-var wall1 = new Boundary(0, 0, 100);
+var wall1 = new Boundary(-100, 0, 100);
 wall1.showOutline();
-var wall2 = new Boundary(-100, -100, 100);
+var wall2 = new Boundary(100, -100, 100);
 wall2.showOutline();
 
 var map = new basicImage("map.png");
